@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Hurtownia</title>
+    <link rel="stylesheet" href="styl4.css">
+</head>
+<body>
+    <div id="kontener">
+        <header>
+            <div class="logo">
+                <img src="./logo.png" alt="hurtownia">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Strona główna</a></li>
+                    <li><a href="zamowienia.html">Zamówienia</a></li>
+                    <li><a href="blog.html">Blog o o kawie</a></li>
+                    <li><a href="http://gatunki-kawy.pl/">Odwiedź także</li></a>
+                </ul>
+            </div>
+            <div class="baner">
+                <h1>Hurtownia kawy</h1>
+            </div>
+        </header>
+        <section id="main">
+            <div class="lewy">
+                <h2>Oferta</h2>
+                <ol>
+                    <li>Kawa palona Arabica</li>
+                    <li>Kawa palona Robusta</li>
+                    <li>Kawa bezkofeinowa</li>
+                    <li>Kawa zielona</li>
+                </ol>
+            </div>
+            <div class="prawy">
+                <form>
+                    Podaj numer kawy <br>
+                    <input type="number" id="nr_kawy"> <br>
+                    Podaj wagę w dekagramach <br>
+                    <input type="number" id="waga"> <br>
+                    <input type="button" value="Zamów" onclick="f1()">
+                </form>
+                <p id="wynik"></p>
+                <script>
+                    function f1(){
+                        var a=parseInt(document.getElementById("nr_kawy").value);
+                        var b=parseInt(document.getElementById("waga").value);
+                        var c;
+                        switch(a){
+                            case 1: c=5*b; 
+                                break;
+                            case 2: c=7*b;
+                                break;
+                            case 3: c=6*b;
+                                break;
+                            default: c=0; 
+                        }
+                        document.getElementById("wynik").innerHTML="Koszt zamówienia wynosi: "+c+" zł"; 
+                    }
+                </script>
+            </div>
+        </section>
+        <footer>
+            <b>Stronę przygotował: 00000000000</b>
+        </footer>
+    </div>
+</body>
+</html>
