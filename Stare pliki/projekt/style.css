@@ -1,0 +1,40 @@
+body{
+    height:100vh;
+    margin: 0;
+}
+#kontener{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px;
+    height: 100%;
+    width: 100%;
+    border-collapse:collapse ;
+}
+.cialo{
+    display: flex;
+    flex-direction: row;
+    border:solid 1px;
+    height: 60%;
+    border-collapse:collapse ;
+}
+header{
+    border: solid 1px;
+    height: 20%;
+    border-collapse:collapse ;
+}
+section{
+    border: solid 1px;
+    width: 35%;
+    border-collapse:collapse ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* align-content: baseline; */
+    flex-direction: row;
+    flex-wrap:wrap ;
+}
+footer{
+    border: solid 1px;
+    height: 20%;
+    border-collapse:collapse ;
+}

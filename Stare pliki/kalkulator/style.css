@@ -1,0 +1,120 @@
+body{
+    /* background: rgb(80, 202, 52); */
+    /* background: linear-gradient(25deg, rgb(73, 180, 49) 10%, rgb(38, 198, 169) 50%, rgb(255, 0, 242) 85%); */
+    display: flex;
+    justify-content: center;
+    /* height: fit-content; */
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url("batman-minimal-art-yellow-background-black-dc-superheroes-3840x2647-1732.jpg") ;
+    background-size: cover;
+}
+#num1,#num2,select,label,#wynik,#wyslij{
+    border-radius: 10px;
+}
+#liczby{
+    display: flex;
+    flex-direction: row;
+}
+#num2{
+    margin-left: 5px;
+}
+#kontener{
+    margin-top: 2%;
+    margin-bottom: 10%;
+    padding-top:7% ;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffd900e0;
+    font-family: cursive;
+    width: 60%;
+    height: fit-content;
+    border-radius: 150px;
+}
+h1{
+    padding-bottom: 2%;
+    margin: 0;
+    font-size: 310%;
+    color: rgb(0, 0, 0);
+}
+#wynik{
+    margin: auto;
+    font-size: xx-large;
+}
+form{
+    /* font-size: xx-large; */
+    width: 80%;
+    height: 20%;
+    /* margin: auto; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+#num1,#num2{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    /* padding-left: 49%; */
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: white;
+}
+select{
+    width: fit-content;
+    font-size: xx-large;
+    float: left;
+    color: white;
+    background-color: rgb(0, 0, 0);
+}
+label{
+    font-size: xx-large;
+    color: rgb(0, 0, 0);
+}
+#wyslij{
+    font-size: xx-large;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 2%;
+}
+#wynik{
+    /* border: solid 1px black; */
+    width: fit-content;
+    height: 45px;
+    padding: 9px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.wynik{
+    margin-top: 2%;
+    width: 80%;
+}
+@media screen and (max-width: 950px) {
+    h1{font-size: 100%;}
+    select,#wyslij{font-size:small; border-radius: 3px;}
+    label{font-size: small;}
+    #num1,#num2,#wynik{ border-radius: 3px;width: 80%; height: 15%; font-size: small;}
+    #kontener{border-radius: 50px;}
+    #wynik{width: fit-content;}
+}
+@media screen and (min-width: 2600px) {
+    h1{font-size: 930%;}
+    select,#wyslij{font-size:160px; border-radius: 60px;}
+    label{font-size: 160px;}
+    #num1,#num2,#wynik{width: 100%; height: 45%; font-size: 160px; border-radius: 60px;}
+    #kontener{border-radius: 250px;}
+    #wynik{width: fit-content;}
+}

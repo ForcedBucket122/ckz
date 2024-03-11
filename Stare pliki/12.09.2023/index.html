@@ -1,0 +1,54 @@
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <title>New doc</title>
+        <link rel="stylesheet" href="style.css">
+        <!-- <script src="js.js" defer></script> -->
+    </head>
+    <body>
+
+        <form>
+            <h1>Podaj liczbę kolumn: </h1>
+            <input type="number" name="kolumny" id="kol">
+            <h1>Podaj liczbę wierszy: </h1>
+            <input type="number" name="wiersze" id="wier">
+            <input type="button" value="wykonaj" onclick="f1()">
+        </form>
+
+        <div id="tabela">
+
+            <!-- <table id="tablet"> -->
+
+                <script>
+                
+                function f1(){
+
+                    let a;
+                    a=document.getElementById("kol").value;
+                    a=parseFloat(a);
+                    let b;
+                    b=document.getElementById("wier").value;
+                    b=parseFloat(b);
+                    const output=document.getElementById("tabela");
+                    tabela="<table>"
+                        for(let i=1; i<=b; i++){
+                            tabela+="<tr>";
+                            for(let j=1; j<=a; j++){
+                            
+                                let x=i*j;
+                            
+                                tabela+="<td id='komorka'>"+i+"*"+j+"="+x+"</td>";
+                            }
+                            tabela+"</tr>";
+                        }
+                        tabela+="<table>"
+                        output.innerHTML=tabela;
+                }
+                </script>
+
+            </table>
+
+        </div>
+
+    </body>
+</html>

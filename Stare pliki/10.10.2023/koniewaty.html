@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+        <input type="text" id="liczba1">
+        <input type="button" id="przelicz1" value="konie na waty">
+        <input type="button" id="przelicz2" value="waty na konie">
+        <div id="show1"></div> -->
+    
+    <script>
+        const liczba1 = document.querySelector("#liczba1");
+        const show1 = document.querySelector("#show1");
+
+        przelicz1.addEventListener("click", function(){
+            let liczba2=(liczba1.value * 0.74);
+            show1.innerHTML= liczba2.toFixed(2) + " watow"
+        }
+        );
+        przelicz2.addEventListener("click", function() {
+            let liczba2=(liczba1.value * 1.36);
+            show1.innerHTML= liczba2.toFixed(2) + " koni"
+        }
+        )
+    </script>
+
+
+    
+    <!-- <input type="text" id="liczba">
+    <input onclick="f1()" type="button" value="zatwierdz" id="zatwierdz">
+    <script>
+        var liczba = document.getElementById("#liczba")
+        var zatwierdz = document.getElementById("#zatwierdz")
+
+       var x = Math.floor(Math.random()*100)+1
+       var y = 0;
+    </script> -->
+
+</body>
+</html>

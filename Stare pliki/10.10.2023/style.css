@@ -1,0 +1,35 @@
+.kontener
+{
+    display: flex;
+    justify-content: center;
+}
+#tekst
+{
+    text-align: center;
+    margin-top: 10px;  
+}
+/* div
+{
+    border: 1px solid
+} */
+.naglowek
+{
+    width:100%;
+    height:500px;
+}
+.nagg
+{
+    display: flex;
+}
+.nagd   
+{
+    display: flex;
+}
+.nagg>div
+{
+    width:100%
+}
+.nagd>div
+{
+    width:100%
+}

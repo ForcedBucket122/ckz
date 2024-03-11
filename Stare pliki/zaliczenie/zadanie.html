@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="number" name="n1" id="n1">
+        <input type="number" id="n2">
+        <input type="button" value="wyslij" onclick="f1()">
+    </form>
+    <p id="wynik"></p>
+    <script>
+        function f1(){
+            var n1=parseInt(document.getElementById("n1").value);
+            var n2=parseInt(document.getElementById("n2").value);
+            // let tablica=[];
+            let i=0;
+            while(i<=n1){
+                document.getElementById("wynik").innerHTML+=n2+",";
+                n2++;
+                i++;
+            }
+            // document.getElementById("wynik").innerHTML=tablica;
+        }
+    </script>
+    <form>
+        <input type="number" name="n3" id="n3">
+        <input type="button" value="wyslij" onclick="f2()">
+    </form>
+    <p id="wynik1"></p>
+    <script>
+        function f2(){
+            var n3=parseInt(document.getElementById("n3").value);
+            // let tablica=[];
+            if(n3%2==1){
+                n3+=1;
+            }
+            for(let i=0; i<5; i++){
+                document.getElementById("wynik").innerHTML+=n3+",";
+                n3+=2;
+            }
+            // document.getElementById("wynik1").innerHTML=tablica;
+        }
+    </script>
+</body>
+</html>
