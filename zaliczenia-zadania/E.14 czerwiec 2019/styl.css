@@ -41,3 +41,10 @@ img,h3{
 form{
     margin-bottom: 100px    ;
 }
+li,ul{
+    padding-top: 30px;
+    background-color: #FFAA00;
+}
+p{
+    margin: 0;
+}
