@@ -1,6 +1,9 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #kontener{
     margin: 0;
@@ -11,15 +14,58 @@ body{
     flex-wrap: wrap;
 }
 #wyspa{
-    background-color: bisque;
-    margin-top:10%;
-    padding: 0 10% 10% 10%;
+    background-color: rgb(59, 59, 59);
+    margin-top:4vh;
+    padding: 0 3% 4% 3%;
     display: flex;
     flex-wrap: wrap;
+    width: 80%;
+    height: 70%;
+    border-radius: 5vh;
 }
 #pytanie{
     
-    margin-bottom: 10%;
-    padding-top: 10%;
+    margin-bottom: 7%;
+    padding-top: 5%;
+    font-size: 4.5vh;
+}
+#main{
+    width: 100%  ;
+}
+#odpowiedzi{
+    display: flex;
+    justify-content: space-between;
+    font-size: 2.5vh;
+    margin-bottom: 5vh;
+}
+#input{
+    width: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+input[type="checkbox"]{
+    /* margin-top: 1.4vh; */
+    width: 2vh;
+    height: 2vh;
+    border: solid black 1vh;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+#submit{
+    width: 50vh;
     font-size: 3vh;
 }
+input[type="checkbox" i]{
+    margin: 1vh 0.2vh 0.2vh 0.2vh;
+}
+#batony{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5vh;
+}
+
+

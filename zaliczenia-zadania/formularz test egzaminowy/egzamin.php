@@ -1,11 +1,15 @@
 <?php
     session_start();
+    if (!isset($_SESSION['count'])) { 
+        $_SESSION['count'] = 0;       
+    }
     if ($_SESSION['count']>9) {
         $_SESSION['count'] = 0;
     }
     if ($_SESSION['count']<0) {
         $_SESSION['count'] = 9;
     }
+    $_SESSION['odpowiedzi']=[];
 ?>
 <!DOCTYPE html>
 <html lang="pl">
@@ -18,7 +22,7 @@
 <body>
     <div id="kontener">
         <div id="wyspa">
-            <form action="egzamin.php" method="post">
+            <form action="egzamin.php" method="post" id="main">
                 <?php
                     // $_SESSION['count'];
                     $con=mysqli_connect('localhost','root','','formularz');
@@ -28,28 +32,43 @@
                     $query1=mysqli_query($con,$zap);
                     $pytanie=[];
                     $odpowiedzi=[];
-                    
+                    $nr=$_SESSION['count']+1;
                     while($row=mysqli_fetch_array($query)){
-                        $dane='<div id="pytanie">'.$row['treść_pyt'].'</div>';
+                        $dane='<div id="pytanie">'.$nr.". ".$row['treść_pyt'].'</div>';
                         array_push($pytanie,$dane); 
                     }while($row=mysqli_fetch_array($query1)){
-                        $dane= '<div id="odpowiedzi"><br><input type="checkbox" name="odp" id="odp">'.$row['odp1'].'<input type="checkbox" name="odp" id="odp">'.$row['odp2'].'<br><input type="checkbox" name="odp" id="odp">'.$row['odp3'].'<input type="checkbox" name="odp" id="odp">'.$row['odp4']."</div>";
+                        $dane= 
+                        '<div id="odpowiedzi">
+                            <div id="input">
+                                <input type="checkbox" name="odp" id="odp" value=1><p>'.$row['odp1'].'</p>
+                            </div>
+                            <div id="input">
+                                <input type="checkbox" name="odp" id="odp" value=2><p>'.$row['odp2'].'</p>
+                            </div>
+                            <div id="input">
+                                <input type="checkbox" name="odp" id="odp" value=3><p>'.$row['odp3'].'</p>
+                            </div>
+                            <div id="input">
+                                <input type="checkbox" name="odp" id="odp" value=4><p>'.$row['odp4']."</p>
+                            </div>
+                        </div>";
                         array_push($odpowiedzi,$dane);
                     }
                     echo $pytanie[$_SESSION['count']];
                     echo $odpowiedzi[$_SESSION['count']];
-                    // echo '<button name="przycisk" value=1>Następne pytanie</button>';
-                    // $przycisk=$_POST['przycisk'];
-                    echo $_SESSION['count'];
+                    // echo $_SESSION['count'];
 
                 ?>
+                <input type="submit" value="Zatwierdź odpowiedź" id="submit" style="float:right;">
             </form>
-            <form action="tyl.php" method="post">
-                <input type="submit" value="Poprzednie pytanie">
-            </form>
-            <form action="przod.php" method="post">
-                <input type="submit" value="Następne pytanie">
-            </form>
+            <div id="batony">
+                <form action="tyl.php" method="post" id="tyl">
+                    <input type="submit" value="Poprzednie pytanie" id="submit">
+                </form>
+                <form action="przod.php" method="post" id="przod">
+                    <input type="submit" value="Następne pytanie" id="submit">
+                </form>
+            </div>
         </div>
     </div>
 </body>
