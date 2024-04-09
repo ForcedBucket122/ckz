@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#kontener{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#wyspa{
+    background-color: bisque;
+    margin-top:10%;
+    padding: 0 10% 10% 10%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#pytanie{
+    
+    margin-bottom: 10%;
+    padding-top: 10%;
+    font-size: 3vh;
+}
