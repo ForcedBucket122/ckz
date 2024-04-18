@@ -46,9 +46,14 @@ body{
 }
 input[type="checkbox"]{
     /* margin-top: 1.4vh; */
-    width: 2vh;
+    transform: scale(2);
     height: 2vh;
     border: solid black 1vh;
+}
+input[type="radio" i]{
+    margin: 1vh 1vh 0.2vh 0.2vh;
+    transform: scale(1.5);
+    height: 2vh;
 }
 p{
     margin: 0;
@@ -59,7 +64,7 @@ p{
     font-size: 3vh;
 }
 input[type="checkbox" i]{
-    margin: 1vh 0.2vh 0.2vh 0.2vh;
+    margin: 0.7vh 1vh 0.2vh 0.2vh;
 }
 #batony{
     display: flex;
