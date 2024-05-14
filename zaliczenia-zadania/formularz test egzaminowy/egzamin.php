@@ -1,3 +1,4 @@
+odpowiedzi zamiast 123
 <?php
     session_start();
     if (!isset($_SESSION['count'])) { 
