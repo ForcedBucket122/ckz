@@ -7,6 +7,4 @@ if (!isset($_SESSION['count'])) {
 } else {                          
     $_SESSION['count']--;         
 }
-
-
 header('location: egzamin.php');
