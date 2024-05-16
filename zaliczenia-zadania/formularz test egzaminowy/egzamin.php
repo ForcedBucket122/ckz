@@ -1,4 +1,3 @@
-tablica dwuwymiarowa jak wywolywac elementy po indeksie
 <?php
     session_start();
     if (!isset($_SESSION['count'])) { 
@@ -29,7 +28,6 @@ tablica dwuwymiarowa jak wywolywac elementy po indeksie
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>egzamin</title>
     <link rel="stylesheet" href="style.css">
-    <script src="skrypt.js" defer></script>
 </head>
 <body>
     <div id="kontener">
@@ -60,32 +58,28 @@ tablica dwuwymiarowa jak wywolywac elementy po indeksie
                             $dane = '<form action="sprawdz.php" method="post" id="main">
                                         <div id="odpowiedzi">
                                         <div id="input">
-                                            <input type="checkbox" name="odp[]" id="odp1" value="1"' . (($_SESSION['odp'][$_SESSION['count']]=="") ? ' checked' : '') . '><p>A. ' . $row['odp1'] . '</p>
+                                            <input type="checkbox" name="odp[]" id="odp1" value="1"' . @(($_SESSION['odp'][$_SESSION['count']][0]=="1") ? ' checked' : '') . '><p>A. ' . $row['odp1'] . '</p>
                                         </div>
                                         <div id="input">
-                                            <input type="checkbox" name="odp[]" id="odp2" value="2"' . (($_SESSION['odp'][$_SESSION['count']]=="2") ? ' checked' : '') . '><p>B. ' . $row['odp2'] . '</p>
+                                            <input type="checkbox" name="odp[]" id="odp2" value="2"' . @(($_SESSION['odp'][$_SESSION['count']][1]=="2") ? ' checked' : '') . '><p>B. ' . $row['odp2'] . '</p>
                                         </div>
                                         <div id="input">
-                                            <input type="checkbox" name="odp[]" id="odp3" value="3"' . (($_SESSION['odp'][$_SESSION['count']]=="3") ? ' checked' : ''). '><p>C. ' . $row['odp3'] . '</p>
+                                            <input type="checkbox" name="odp[]" id="odp3" value="3"' . @(($_SESSION['odp'][$_SESSION['count']][2]=="3") ? ' checked' : ''). '><p>C. ' . $row['odp3'] . '</p>
                                         </div>
                                         <div id="input">
-                                            <input type="checkbox" name="odp[]" id="odp4" value="4"' . (($_SESSION['odp'][$_SESSION['count']]=="4") ? ' checked' : '') . '><p>D. ' . $row['odp4'] . '</p>
+                                            <input type="checkbox" name="odp[]" id="odp4" value="4"' . @(($_SESSION['odp'][$_SESSION['count']][3]=="4") ? ' checked' : '') . '><p>D. ' . $row['odp4'] . '</p>
                                         </div>
                                         
                                       </div>
                                       <div id="batony">
                                         <div style="order:2">
-                                        <form action="egzamin.php" method="post">
-                                            <input type="submit" value="Zakończ test" id="submit" >
-                                        </form>
+                                            <input type="submit" name="przycisk" value="Zakończ test" id="submit" >
                                         </div>
                                         <div style="order:1">
-
                                             <input type="submit" name="przycisk" value="Poprzednie pytanie" id="submit" >
-
                                         </div>
                                         <div style="order:3">
-                                        <input type="submit" name="przycisk" value="Następne pytanie" id="submit">
+                                            <input type="submit" name="przycisk" value="Następne pytanie" id="submit">
                                         </div>
                                   </div></form>';
                         } else {
@@ -109,17 +103,13 @@ tablica dwuwymiarowa jak wywolywac elementy po indeksie
                                     </div>
                                     <div id="batony">
                                         <div style="order:2">
-                                        <form action="egzamin.php" method="post">
-                                            <input type="submit" value="Zakończ test" id="submit" >
-                                        </form>
+                                            <input type="submit" name="przycisk" value="Zakończ test" id="submit" >
                                         </div>
                                         <div style="order:1">
-                                        
                                             <input type="submit" name="przycisk" value="Poprzednie pytanie" id="submit" >
-                                        
                                         </div>
                                         <div style="order:3">
-                                        <input type="submit" name="przycisk" value="Następne pytanie" id="submit">
+                                            <input type="submit" name="przycisk" value="Następne pytanie" id="submit">
                                         </div>
                                     </div></form>';
                         }

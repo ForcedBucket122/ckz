@@ -17,5 +17,49 @@ if($_SESSION['count']==9){
         }
     }
 }
-if($_POST['przycisk']=="Następne pytanie"){header('location: przod.php');}
-if($_POST['przycisk']=="Poprzednie pytanie"){header('location: tyl.php');}
+switch($_POST['przycisk']){
+    case "Zakończ test":
+        $_SESSION['count']=0;
+        header('location: wyniki.php');
+        break;
+    case "Spróbuj ponownie":
+        if (isset($_SESSION['odp'])) {
+            $_SESSION['odp'] = array_fill(0, 10, "");
+        }
+        $_SESSION['count']=0;
+        header('location: egzamin.php');
+        break;
+    case "Następne pytanie":
+        if (!isset($_SESSION['count'])) { 
+            $_SESSION['count'] = 0;       
+        } else {     
+            $_SESSION['count']++;         
+        }
+        header('location: egzamin.php');
+        break;
+    case "Poprzednie pytanie":
+        if (!isset($_SESSION['count'])) { 
+            $_SESSION['count'] = 0;       
+        } else {                          
+            $_SESSION['count']--;         
+        }
+        header('location: egzamin.php');
+        break;
+    case "Następne pytanie ":
+        if (!isset($_SESSION['count'])) { 
+            $_SESSION['count'] = 0;       
+        } else {     
+            $_SESSION['count']++;         
+        }
+        header('location: wyniki.php');
+        break;
+    case "Poprzednie pytanie ":
+        if (!isset($_SESSION['count'])) { 
+            $_SESSION['count'] = 0;       
+        } else {                          
+            $_SESSION['count']--;         
+        }
+        header('location: wyniki.php');
+        break;
+    default: echo "Błąd";
+}
