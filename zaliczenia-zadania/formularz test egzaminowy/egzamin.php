@@ -1,4 +1,4 @@
-checkboxy dodawanie do tablicy
+tablica dwuwymiarowa jak wywolywac elementy po indeksie
 <?php
     session_start();
     if (!isset($_SESSION['count'])) { 
@@ -60,7 +60,7 @@ checkboxy dodawanie do tablicy
                             $dane = '<form action="sprawdz.php" method="post" id="main">
                                         <div id="odpowiedzi">
                                         <div id="input">
-                                            <input type="checkbox" name="odp[]" id="odp1" value="1"' . (($_SESSION['odp'][$_SESSION['count']]=="1") ? ' checked' : '') . '><p>A. ' . $row['odp1'] . '</p>
+                                            <input type="checkbox" name="odp[]" id="odp1" value="1"' . (($_SESSION['odp'][$_SESSION['count']]=="") ? ' checked' : '') . '><p>A. ' . $row['odp1'] . '</p>
                                         </div>
                                         <div id="input">
                                             <input type="checkbox" name="odp[]" id="odp2" value="2"' . (($_SESSION['odp'][$_SESSION['count']]=="2") ? ' checked' : '') . '><p>B. ' . $row['odp2'] . '</p>
@@ -72,21 +72,22 @@ checkboxy dodawanie do tablicy
                                             <input type="checkbox" name="odp[]" id="odp4" value="4"' . (($_SESSION['odp'][$_SESSION['count']]=="4") ? ' checked' : '') . '><p>D. ' . $row['odp4'] . '</p>
                                         </div>
                                         
-                                      </div><div id="batony">
-                                            <div style="order:2">
-                                            <form action="egzamin.php" method="post">
-                                                <input type="submit" value="Zakończ test" id="submit" >
-                                            </form>
-                                            </div>
-                                            <div style="order:1">
-                                            <form action="tyl.php" method="post" id="tyl">
-                                                <input type="submit" value="Poprzednie pytanie" id="submit" >
-                                            </form>
-                                            </div>
-                                            <div style="order:3">
-                                            <input type="submit" value="Następne pytanie" id="submit">
-                                            </div>
-                                        </div></form>';
+                                      </div>
+                                      <div id="batony">
+                                        <div style="order:2">
+                                        <form action="egzamin.php" method="post">
+                                            <input type="submit" value="Zakończ test" id="submit" >
+                                        </form>
+                                        </div>
+                                        <div style="order:1">
+
+                                            <input type="submit" name="przycisk" value="Poprzednie pytanie" id="submit" >
+
+                                        </div>
+                                        <div style="order:3">
+                                        <input type="submit" name="przycisk" value="Następne pytanie" id="submit">
+                                        </div>
+                                  </div></form>';
                         } else {
                             $dane = '<form action="sprawdz.php" method="post" id="main">
                                         <div id="odpowiedzi">
