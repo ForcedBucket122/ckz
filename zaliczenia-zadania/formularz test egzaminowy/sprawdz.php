@@ -1,20 +1,18 @@
 <?php
 session_start();
-if (!isset($check)) {
-    $check = array_fill(0, 4, "");
-}
-if($_SESSION['count']==9){
-    
-    foreach($_POST['odp'] as $selected) {
-            $check[$selected-1]=$selected;
+if(($_POST['przycisk']=="Następne pytanie") or ($_POST['przycisk']=="Poprzednie pytanie") or  ($_POST['przycisk']=="Zakończ test")){
+    if (!isset($check)) {
+        $check = array_fill(0, 4, "");
     }
-    $_SESSION['odp'][$_SESSION['count']]=$check;
-}else{
-    $odp=$_POST['odp'];
-    for($i=1;$i<=4;$i++){
-        if($odp==$i){
-            $_SESSION['odp'][$_SESSION['count']]=$i;
+    if($_SESSION['count']==9){
+
+        foreach($_POST['odp'] as $selected) {
+
+                $check[$selected-1]=$_SESSION['checkbox'][$selected-1];
         }
+        $_SESSION['odp'][$_SESSION['count']]=$check;
+    }else{
+        $_SESSION['odp'][$_SESSION['count']]=$_POST['odp'];
     }
 }
 switch($_POST['przycisk']){

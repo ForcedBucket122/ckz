@@ -12,13 +12,12 @@
     if (!isset($_SESSION['odp'])) {
         $_SESSION['odp'] = array_fill(0, 10, ""); // Inicjalizacja tablicy odpowiedzi
     }
-
+    if (!isset($_SESSION['checkbox'])) { 
+        $_SESSION['checkbox'] = array_fill(0,4,"");       
+    }
     if(isset($_POST['odp'])) {
         $_SESSION['odp'][$_SESSION['count']] = $_POST['odp']; // Zapisanie odpowiedzi do odpowiedniego indeksu
     }
-    // $text1 = $_POST['odp1'];
-    // $text2 = $_POST['odp2'];
-    // echo $text1;
 ?>
 
 <!DOCTYPE html>
@@ -35,12 +34,9 @@
             <form action="sprawdz.php" method="post" id="main">
                 <?php
                     $con = mysqli_connect('localhost', 'root', '', 'formularz'); //polaczenie z baza
-                    $sprawdz = 'SELECT treść_pyt FROM pytania;'; //zapytanie
-                    $query = mysqli_query($con, $sprawdz); // wykonanie zapytania
-                    $zap = 'SELECT id_pyt, odp1, odp2, odp3, odp4 FROM pytania';
-                    $query1 = mysqli_query($con, $zap);
-                    $zap2 = 'SELECT COUNT(id_pyt) FROM odpowiedzi GROUP BY id_pyt';
-                    $query2 = mysqli_query($con, $zap2);
+                    $query = mysqli_query($con,'SELECT treść_pyt FROM pytania;'); // wykonanie zapytania
+                    $query1 = mysqli_query($con,'SELECT id_pyt, odp1, odp2, odp3, odp4 FROM pytania');
+                    $query2 = mysqli_query($con,'SELECT COUNT(id_pyt) FROM odpowiedzi GROUP BY id_pyt');
                     $typ = [];
                     while ($row = mysqli_fetch_array($query2)) { // sprawdza jakiego typu musi byc input radius czy checkbox
                         array_push($typ, $row['COUNT(id_pyt)']);
@@ -52,22 +48,25 @@
                         $dane = '<div id="pytanie">' . $nr . ". " . $row['treść_pyt'] . '</div>';
                         array_push($pytanie, $dane);
                     }
-                    // '1'= strval($_SESSION['count']);
                     while ($row = mysqli_fetch_array($query1)) {
                         if ($typ[$row['id_pyt'] - 1] > 1) {
+                            for($i=0;$i<4;$i++){
+                                $x=$i+1;
+                                $_SESSION['checkbox'][$i]=$row["odp$x"];
+                            }
                             $dane = '<form action="sprawdz.php" method="post" id="main">
                                         <div id="odpowiedzi">
                                         <div id="input">
-                                            <input type="checkbox" name="odp[]" id="odp1" value="1"' . @(($_SESSION['odp'][$_SESSION['count']][0]=="1") ? ' checked' : '') . '><p>A. ' . $row['odp1'] . '</p>
+                                            <input type="checkbox" name="odp[]" id="odp1" value=1'. @(($_SESSION['odp'][$_SESSION['count']][0]==$row['odp1']) ? ' checked' : '') . '><p>A. ' . $row['odp1'] . '</p>
                                         </div>
                                         <div id="input">
-                                            <input type="checkbox" name="odp[]" id="odp2" value="2"' . @(($_SESSION['odp'][$_SESSION['count']][1]=="2") ? ' checked' : '') . '><p>B. ' . $row['odp2'] . '</p>
+                                            <input type="checkbox" name="odp[]" id="odp2" value=2'. @(($_SESSION['odp'][$_SESSION['count']][1]==$row['odp2']) ? ' checked' : '') . '><p>B. ' . $row['odp2'] . '</p>
                                         </div>
                                         <div id="input">
-                                            <input type="checkbox" name="odp[]" id="odp3" value="3"' . @(($_SESSION['odp'][$_SESSION['count']][2]=="3") ? ' checked' : ''). '><p>C. ' . $row['odp3'] . '</p>
+                                            <input type="checkbox" name="odp[]" id="odp3" value=3'. @(($_SESSION['odp'][$_SESSION['count']][2]==$row['odp3']) ? ' checked' : ''). '><p>C. ' . $row['odp3'] . '</p>
                                         </div>
                                         <div id="input">
-                                            <input type="checkbox" name="odp[]" id="odp4" value="4"' . @(($_SESSION['odp'][$_SESSION['count']][3]=="4") ? ' checked' : '') . '><p>D. ' . $row['odp4'] . '</p>
+                                            <input type="checkbox" name="odp[]" id="odp4" value=4'. @(($_SESSION['odp'][$_SESSION['count']][3]==$row['odp4']) ? ' checked' : '') . '><p>D. ' . $row['odp4'] . '</p>
                                         </div>
                                         
                                       </div>
@@ -87,17 +86,17 @@
                                         <div id="odpowiedzi">
                                         
                                         <div id="input">
-                                            <input type="radio" name="odp" id="odp1" value="1"'. (($_SESSION['odp'][$_SESSION['count']]=="1") ? ' checked': '') . '><p>A. ' . $row['odp1'] . '</p>'.//sprawdza czy dana odpowiedz jest w tablicy z zaznaczonymi odpowiedziami jesli tak to przypisywana jest wlasnosc checked
+                                            <input type="radio" name="odp" id="odp1" value="'.$row['odp1'].'"'. (($_SESSION['odp'][$_SESSION['count']]==$row['odp1']) ? ' checked': '') . '><p>A. ' . $row['odp1'] . '</p>'.//sprawdza czy dana odpowiedz jest w tablicy z zaznaczonymi odpowiedziami jesli tak to przypisywana jest wlasnosc checked
                                             '
                                         </div>
                                         <div id="input">
-                                            <input type="radio" name="odp" id="odp2" value="2"' . (($_SESSION['odp'][$_SESSION['count']]=="2") ? ' checked' : '') . '><p>B. ' . $row['odp2'] . '</p>
+                                            <input type="radio" name="odp" id="odp2" value="'.$row['odp2'].'"'. (($_SESSION['odp'][$_SESSION['count']]==$row['odp2']) ? ' checked' : '') . '><p>B. ' . $row['odp2'] . '</p>
                                         </div>
                                         <div id="input">
-                                            <input type="radio" name="odp" id="odp3" value="3"' . (($_SESSION['odp'][$_SESSION['count']]=="3") ? ' checked' : '') . '><p>C. ' . $row['odp3'] . '</p>
+                                            <input type="radio" name="odp" id="odp3" value="'.$row['odp3'].'"'. (($_SESSION['odp'][$_SESSION['count']]==$row['odp3']) ? ' checked' : '') . '><p>C. ' . $row['odp3'] . '</p>
                                         </div>
                                         <div id="input">
-                                            <input type="radio" name="odp" id="odp4" value="4"' . (($_SESSION['odp'][$_SESSION['count']]=="4") ? ' checked' : '') . '><p>D. ' . $row['odp4'] . '</p>
+                                            <input type="radio" name="odp" id="odp4" value="'.$row['odp4'].'"'. (($_SESSION['odp'][$_SESSION['count']]==$row['odp4']) ? ' checked' : '') . '><p>D. ' . $row['odp4'] . '</p>
                                         </div>
                                         
                                     </div>
@@ -117,8 +116,8 @@
                     }
                     echo $pytanie[$_SESSION['count']];
                     echo $odpowiedzi[$_SESSION['count']];
-                    print_r($_SESSION['odp']);
-                    echo $_SESSION['count'];
+                    // print_r($_SESSION['odp']);
+                    // print_r($_SESSION['checkbox']);
                 ?>
             </form>
         </div>
