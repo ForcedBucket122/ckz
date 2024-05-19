@@ -108,7 +108,7 @@
                                             <input type="submit" name="przycisk" value="Poprzednie pytanie" id="submit" >
                                         </div>
                                         <div style="order:3">
-                                            <input type="submit" name="przycisk" value="Następne pytanie" id="submit">
+                                            <input type="submit" name="przycisk" value="Następne pytanie" id="submit" class="nast">
                                         </div>
                                     </div></form>';
                         }
@@ -122,5 +122,6 @@
             </form>
         </div>
     </div>
+
 </body>
 </html>
