@@ -1,0 +1,86 @@
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #23243a;
+    color: #ffffff;
+}
+#kontener{
+    display: flex;
+    width:100%;
+}
+form{
+    width: 100%;
+}
+#wyspa{
+    width: 100%;
+}
+#pytania{
+    margin-top: 50px;
+    font-size: larger;
+    color: #b2b7e5;
+}
+#pytanie{
+    font-size: 4vh;
+    font-weight: bold;
+    color: white;
+    height: 14vh;
+}
+#odpowiedzi{
+    height: 27vh;
+}
+span{
+    font-size: 6em;
+    animation:  procent 4s infinite;
+    background-color: #23243a;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+#procent{
+    text-align: center;
+}
+.hr1{
+    position: absolute;
+    width: 94em;
+    margin-top: -50px;
+    z-index: -1;
+    border: 6px double #9499ff;
+}
+#pkt{
+    font-size: 2em;
+    text-align: center;
+    margin-top: -30px;
+    animation:  procent 4s infinite;
+}
+@keyframes procent{
+    0%{color: #e8c5ff}
+    20%{color: #e8c5ff}
+    40%{color: #d7b5ce;}
+    60%{color: #d7b5ce;}
+    80%{color: #eddbe7;}
+    100%{color: #eddbe7;}
+}
+#batony{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+#submit{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #EBD1BF ;
+    background-color: #202363;
+    border: 5px double #9499ff;
+    width: 13em;
+    height: 3em;
+    font-size: 16px;
+    transition-duration: 1s;
+    font-variant: small-caps;
+}
+#submit:hover{
+    font-size: 17px;
+    color: white;
+    transition-duration:500ms;
+    border: 5px double #ffffff;
+    cursor:grab;
+}
