@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>logowanie</title>
+    <link rel="stylesheet" href="logowaniecss.css">
 </head>
 <body>
     <div id="kontener">
@@ -28,6 +29,9 @@
     }
             mysqli_close($con);
         ?>
+        <hr>
+        <div id="tak">
+        <h1>Zaloguj</h1>
         <form action="index.php" method="post">
             Klasa: <br>
             <input type="text" name="klasa" id="klasa"> <br>
@@ -37,6 +41,7 @@
             <input type="text" name="imie" id="imie"> <br> <br>
             <input type="submit" value="zaloguj">
         </form>
+        </div>
     </div>
 </body>
 </html>
