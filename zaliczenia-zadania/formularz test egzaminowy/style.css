@@ -1,9 +1,9 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(27, 27, 27);
+    background-color: #23243a;
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #kontener{
     margin: 0;
@@ -14,13 +14,14 @@ body{
     flex-wrap: wrap;
 }
 #wyspa{
-    background-color: rgb(59, 59, 59);
+    border: 6px double #9499ff;
+    background-color: #121436;
     margin-top:4vh;
     padding: 0 3% 4% 3%;
     display: flex;
     flex-wrap: wrap;
     width: 80%;
-    height: 70%;
+    height: 60vh;
     border-radius: 5vh;
 }
 #pytanie{
@@ -28,6 +29,7 @@ body{
     margin-bottom: 7%;
     padding-top: 5%;
     font-size: 4.5vh;
+    height: 15vh;
 }
 #main{
     width: 100%  ;
@@ -37,9 +39,10 @@ body{
     justify-content: space-between;
     font-size: 2.5vh;
     margin-bottom: 5vh;
+    height: 30vh;
 }
 #input{
-    width: 20vh;
+    width: 40vh;
     display: flex;
     justify-content: center;
     align-items: flex-start;
@@ -66,11 +69,35 @@ p{
 input[type="checkbox" i]{
     margin: 0.7vh 1vh 0.2vh 0.2vh;
 }
+input{
+    accent-color: #9094ff;
+}
 #batony{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    margin-top: 5vh;
+    margin-top: -6vh;
+    height: 60px;
 }
-
+#submit{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #EBD1BF ;
+    background-color: #202363;
+    border: 5px double #9499ff;
+    width: 13em;
+    height: 3em;
+    font-size: 16px;
+    transition-duration: 1s;
+    font-variant: small-caps;
+}
+#submit:hover{
+    font-size: 17px;
+    color: white;
+    transition-duration:500ms;
+    border: 5px double #ffffff;
+    cursor:grab;
+}
 
