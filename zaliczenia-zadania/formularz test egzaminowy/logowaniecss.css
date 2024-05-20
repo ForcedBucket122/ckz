@@ -12,7 +12,7 @@ form{
 }
 hr{
     position: absolute;
-    width: 207vh;
+    width: 98.7%;
     margin-top: 15vh;
     z-index: -1;
     border: 6px double #9499ff;
@@ -32,7 +32,7 @@ hr{
     background-color: rgba(0,0,0,0.7);
     width: 10em;
     height: 21em;
-    
+    border-radius: 40px;
 }   
 input[type="text"]{
     width: 30vh;

@@ -39,7 +39,7 @@ span{
 }
 .hr1{
     position: absolute;
-    width: 94em;
+    width: 98.5%;
     margin-top: -50px;
     z-index: -1;
     border: 6px double #9499ff;
