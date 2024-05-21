@@ -14,6 +14,7 @@
             @$imie=$_POST['imie'];
             $con=mysqli_connect('localhost','root','','formularz');
             $sprawdz='SELECT klasa, nazwisko, imię FROM użytkownicy;';
+            $dodaj="INSERT INTO użytkownicy (klasa, nazwisko, imię) VALUES ('$klasa', '$nazwisko', '$imie')";
             $query=mysqli_query($con,$sprawdz);
             $wynik=0;
             $klasa_tab=[];
@@ -35,20 +36,33 @@
                     }
                 }
             }
+            if(@$_POST['przycisk']=='zarejestruj'){
+                if((!isset($klasa) or $klasa==null) or (!isset($nazwisko) or $nazwisko==null) or (!isset($imie) or $imie==null)){
+                    echo "<script type='text/javascript'>alert('Wypełnij wszystkie pola!');</script>";
+                }else{
+                    if(in_array($klasa,$klasa_tab) and in_array($nazwisko,$nazwisko_tab) and in_array($imie,$imie_tab)){
+                        echo "<script type='text/javascript'>alert('Taki użytkownik już istnieje!');</script>";
+                    }else{
+                        mysqli_query($con, $dodaj);
+                        echo "<script type='text/javascript'>alert('Nowy użytkownik dodany!');</script>";
+                    }
+                }
+            }
             mysqli_close($con);
             ?>
         <hr>
         <div id="tak">
         <h1>Zaloguj</h1>
         <form action="index.php" method="post">
-            Klasa: <br>
-            <input type="text" name="klasa" id="klasa"> <br>
-            Nazwisko: <br>
-            <input type="text" name="nazwisko" id="nazwisko"> <br>
-            Imie: <br>
-            <input type="text" name="imie" id="imie"> <br> <br>
-            <input type="submit" value="zaloguj" name="przycisk">
-        </form>
+                    Klasa: <br>
+                    <input type="text" name="klasa" id="klasa"> <br>
+                    Nazwisko: <br>
+                    <input type="text" name="nazwisko" id="nazwisko"> <br>
+                    Imie: <br>
+                    <input type="text" name="imie" id="imie"> <br> <br>
+                    <input type="submit" value="zaloguj" name="przycisk">
+                    <input type="submit" value="zarejestruj" name="przycisk">
+                </form>
         </div>
     </div>
 </body>
