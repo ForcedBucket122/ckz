@@ -1,0 +1,70 @@
+body{
+    background-image: url(tlo.png);
+    background-attachment: fixed;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4vh;
+
+}
+form{
+    margin-top: 2em;
+}
+hr{
+    position: absolute;
+    width: 98.7%;
+    margin-top: 15vh;
+    z-index: -1;
+    border: 6px double #9499ff;
+}
+
+#kontener{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#tak{
+    margin-top: 4vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.7);
+    width: 10em;
+    height: 21em;
+    border-radius: 40px;
+}   
+input[type="text"]{
+    width: 30vh;
+    border-radius: 15px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 5vh;
+    background-color: #9499ff;
+    font-size: 3vh;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    border:1px solid #9499ff;
+}
+input[type="submit"]{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+    color: #EBD1BF ;
+    background-color: #202363;
+    border: 5px double #9499ff;
+    width: 10em;
+    height: 3em;
+    font-size: 21px;
+    transition-duration: 1s;
+    font-variant: small-caps;
+    margin-top: 1px;
+    margin-bottom: 2vh;
+}
+input[type="submit"]:hover{
+    font-size: 22px;
+    color: white;
+    transition-duration:500ms;
+    border: 5px double #ffffff;
+    cursor:grab;
+}
