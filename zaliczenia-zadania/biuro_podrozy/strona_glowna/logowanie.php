@@ -18,17 +18,18 @@
             @$adres=$_POST['adres'];
             @$numer_telefonu=$_POST['numer_telefonu'];
             @$email=$_POST['email'];
-            $con=mysqli_connect('localhost','root','','biuro_podrozy');
-            $sprawdz='SELECT uzytkownik, haslo FROM użytkownicy;';
+            @$przycisk=$_POST['przycisk'];
+            $con=mysqli_connect('localhost','root','','wycieczki');
+            $sprawdz='SELECT uzytkownik, haslo FROM klienci_logowanie;';
             $dodaj_klienci="INSERT INTO klienci (imie, nazwisko, miejscowosc_zamieszkania,kod_pocztowy,adres,numer_telefonu,email) VALUES ('$imie', '$nazwisko', '$miejscowosc_zamieszkania','$kod_pocztowy','$adres','$numer_telefonu','$email')";
-            $dodaj_logowanie="INSERT INTO logowanie_klienci (uzytkownik, haslo) VALUES ('$uzytkownik','$haslo')"
+            $dodaj_logowanie="INSERT INTO klienci_logowanie (uzytkownik, haslo) VALUES ('$uzytkownik','$haslo')";
             $query=mysqli_query($con,$sprawdz);
             $wynik=0;
             $uzytkownik_tab=[];
             $haslo_tab=[];
             $form='<div id="tak">
             <h1>Zaloguj</h1>
-            <form action="index.php" method="post">
+            <form action="logowanie.php" method="post">
                         Login: <br>
                         <input type="text" name="uzytkownik" id="uzytkownik"> <br>
                         Hasło: <br>
@@ -38,13 +39,17 @@
                     </form>
             </div>
         </div>';
+        if($przycisk==null or !isset($przycisk)){
+            $przycisk='zaloguj';
+        }
             while($row=mysqli_fetch_array($query)){
-                array_push($uzytkownik_tab, $row[1]);
-                array_push($haslo_tab, $row[2]);
+                array_push($uzytkownik_tab, $row[0]);
+                array_push($haslo_tab, $row[1]);
             }
-            if(@$_POST['przycisk']=='zaloguj'){
+            if($przycisk=='zaloguj'){
+                echo $form;
                 if(in_array($uzytkownik,$uzytkownik_tab) and in_array($haslo,$haslo_tab)){
-                    header('location: egzamin.php');
+                    header('location: biuro_podrozy.php');
                 }else{
                     if((!isset($uzytkownik) or $uzytkownik==null) or (!isset($haslo) or $haslo==null)){
                         echo "<script type='text/javascript'>alert('Wypełnij wszystkie pola!');</script>";
@@ -53,10 +58,10 @@
                     }
                 }
             }
-            if(@$_POST['przycisk']=='zarejestruj'){
+            if($przycisk=='zarejestruj'){
                 $form='<div id="tak">
                 <h1>Zaloguj</h1>
-                    <form action="index.php" method="post">
+                    <form action="logowanie.php" method="post">
                         Login: <br>
                         <input type="text" name="uzytkownik" id="uzytkownik" placeholder="login"> <br>
                         Hasło: <br>
@@ -80,13 +85,16 @@
                     </form>
                     </div>
                 </div>';
+                echo $form;
                 if((!isset($uzytkownik) or $uzytkownik==null) or (!isset($haslo) or $haslo==null) or (!isset($imie) or $imie==null) or (!isset($nazwisko) or $nazwisko==null) or (!isset($miejscowosc_zamieszkania) or $miejscowosc_zamieszkania==null) or (!isset($kod_pocztowy) or $kod_pocztowy==null) or (!isset($adres) or $adres==null) or (!isset($numer_telefonu) or $numer_telefonu==null) or (!isset($email) or $email==null)){
                     echo "<script type='text/javascript'>alert('Wypełnij wszystkie pola!');</script>";
                 }else{
                     echo "<script type='text/javascript'>alert('Nowy użytkownik dodany!');</script>";
+                    mysqli_query($con,"INSERT INTO klienci_logowanie(uzytkownik,haslo) VALUES ('$uzytkownik','$haslo')");
+                    mysqli_query($con,"INSERT INTO klienci(imie,nazwisko,miejscowosc_zamieszkania,kod_pocztowy,adres,numer_telefonu,email) VALUES ('$imie','$nazwisko','$miejscowosc_zamieszkania','$kod_pocztowy','$adres','$numer_telefonu','$email')");
                 }
             }
-            echo $form;
+            
             mysqli_close($con);
             ?>
         <hr>

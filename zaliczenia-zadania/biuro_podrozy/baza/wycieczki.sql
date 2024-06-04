@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.1.1
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 28 Maj 2024, 13:35
--- Wersja serwera: 10.4.22-MariaDB
--- Wersja PHP: 8.1.2
+-- Generation Time: Cze 04, 2024 at 07:47 AM
+-- Wersja serwera: 10.4.28-MariaDB
+-- Wersja PHP: 8.2.4
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,8 +18,51 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Baza danych: `biuro_podrozy`
+-- Database: `wycieczki`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `klienci`
+--
+
+CREATE TABLE `klienci` (
+  `id_klienta` int(11) NOT NULL,
+  `imie` varchar(30) NOT NULL,
+  `nazwisko` varchar(60) NOT NULL,
+  `miejscowosc_zamieszkania` varchar(60) NOT NULL,
+  `kod_pocztowy` varchar(6) NOT NULL,
+  `adres` varchar(40) NOT NULL,
+  `numer_telefonu` int(12) NOT NULL,
+  `email` varchar(60) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
+
+--
+-- Dumping data for table `klienci`
+--
+
+INSERT INTO `klienci` (`id_klienta`, `imie`, `nazwisko`, `miejscowosc_zamieszkania`, `kod_pocztowy`, `adres`, `numer_telefonu`, `email`) VALUES
+(1, 'Adam', 'Nowak', 'Warszawa', '00-000', 'Gołębia7', 2147483647, 'wardziejewskigaclaw@gmail.com');
+
+-- --------------------------------------------------------
+
+--
+-- Struktura tabeli dla tabeli `klienci_logowanie`
+--
+
+CREATE TABLE `klienci_logowanie` (
+  `id_klienta` int(11) NOT NULL,
+  `uzytkownik` varchar(30) NOT NULL,
+  `haslo` varchar(40) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_polish_ci;
+
+--
+-- Dumping data for table `klienci_logowanie`
+--
+
+INSERT INTO `klienci_logowanie` (`id_klienta`, `uzytkownik`, `haslo`) VALUES
+(1, 'ZoziTotalneL', 'jdjd123');
 
 -- --------------------------------------------------------
 
@@ -38,10 +81,10 @@ CREATE TABLE `wycieczki` (
   `data_przyjazdu` date NOT NULL,
   `ilosc_miejsc` int(11) NOT NULL,
   `cena` double(7,2) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Zrzut danych tabeli `wycieczki`
+-- Dumping data for table `wycieczki`
 --
 
 INSERT INTO `wycieczki` (`id_wycieczki`, `kraj`, `miejscowosc`, `hotel`, `opis`, `zdjecia`, `data_wyjazdu`, `data_przyjazdu`, `ilosc_miejsc`, `cena`) VALUES
@@ -56,17 +99,41 @@ INSERT INTO `wycieczki` (`id_wycieczki`, `kraj`, `miejscowosc`, `hotel`, `opis`,
 --
 
 --
+-- Indeksy dla tabeli `klienci`
+--
+ALTER TABLE `klienci`
+  ADD PRIMARY KEY (`id_klienta`);
+
+--
+-- Indeksy dla tabeli `klienci_logowanie`
+--
+ALTER TABLE `klienci_logowanie`
+  ADD PRIMARY KEY (`id_klienta`);
+
+--
 -- Indeksy dla tabeli `wycieczki`
 --
 ALTER TABLE `wycieczki`
   ADD PRIMARY KEY (`id_wycieczki`);
 
 --
--- AUTO_INCREMENT dla zrzuconych tabel
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT dla tabeli `wycieczki`
+-- AUTO_INCREMENT for table `klienci`
+--
+ALTER TABLE `klienci`
+  MODIFY `id_klienta` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `klienci_logowanie`
+--
+ALTER TABLE `klienci_logowanie`
+  MODIFY `id_klienta` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `wycieczki`
 --
 ALTER TABLE `wycieczki`
   MODIFY `id_wycieczki` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
