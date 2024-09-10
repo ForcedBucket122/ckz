@@ -1,0 +1,15 @@
+D:\3pb Jsz\3\c#\zadania\bin\Debug\net8.0\zadania.exe
+D:\3pb Jsz\3\c#\zadania\bin\Debug\net8.0\zadania.deps.json
+D:\3pb Jsz\3\c#\zadania\bin\Debug\net8.0\zadania.runtimeconfig.json
+D:\3pb Jsz\3\c#\zadania\bin\Debug\net8.0\zadania.dll
+D:\3pb Jsz\3\c#\zadania\bin\Debug\net8.0\zadania.pdb
+D:\3pb Jsz\3\c#\zadania\obj\Debug\net8.0\zadania.GeneratedMSBuildEditorConfig.editorconfig
+D:\3pb Jsz\3\c#\zadania\obj\Debug\net8.0\zadania.AssemblyInfoInputs.cache
+D:\3pb Jsz\3\c#\zadania\obj\Debug\net8.0\zadania.AssemblyInfo.cs
+D:\3pb Jsz\3\c#\zadania\obj\Debug\net8.0\zadania.csproj.CoreCompileInputs.cache
+D:\3pb Jsz\3\c#\zadania\obj\Debug\net8.0\zadania.sourcelink.json
+D:\3pb Jsz\3\c#\zadania\obj\Debug\net8.0\zadania.dll
+D:\3pb Jsz\3\c#\zadania\obj\Debug\net8.0\refint\zadania.dll
+D:\3pb Jsz\3\c#\zadania\obj\Debug\net8.0\zadania.pdb
+D:\3pb Jsz\3\c#\zadania\obj\Debug\net8.0\zadania.genruntimeconfig.cache
+D:\3pb Jsz\3\c#\zadania\obj\Debug\net8.0\ref\zadania.dll
