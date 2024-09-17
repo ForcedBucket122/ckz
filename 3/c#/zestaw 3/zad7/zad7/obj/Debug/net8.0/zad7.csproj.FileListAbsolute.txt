@@ -1,0 +1,15 @@
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\bin\Debug\net8.0\zad7.exe
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\bin\Debug\net8.0\zad7.deps.json
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\bin\Debug\net8.0\zad7.runtimeconfig.json
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\bin\Debug\net8.0\zad7.dll
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\bin\Debug\net8.0\zad7.pdb
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\obj\Debug\net8.0\zad7.GeneratedMSBuildEditorConfig.editorconfig
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\obj\Debug\net8.0\zad7.AssemblyInfoInputs.cache
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\obj\Debug\net8.0\zad7.AssemblyInfo.cs
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\obj\Debug\net8.0\zad7.csproj.CoreCompileInputs.cache
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\obj\Debug\net8.0\zad7.sourcelink.json
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\obj\Debug\net8.0\zad7.dll
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\obj\Debug\net8.0\refint\zad7.dll
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\obj\Debug\net8.0\zad7.pdb
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\obj\Debug\net8.0\zad7.genruntimeconfig.cache
+D:\3pb Jsz\3\c#\zestaw 3\zad7\zad7\obj\Debug\net8.0\ref\zad7.dll

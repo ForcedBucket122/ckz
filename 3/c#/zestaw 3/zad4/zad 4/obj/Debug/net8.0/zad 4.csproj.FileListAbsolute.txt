@@ -1,0 +1,15 @@
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\bin\Debug\net8.0\zad 4.exe
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\bin\Debug\net8.0\zad 4.deps.json
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\bin\Debug\net8.0\zad 4.runtimeconfig.json
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\bin\Debug\net8.0\zad 4.dll
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\bin\Debug\net8.0\zad 4.pdb
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\obj\Debug\net8.0\zad 4.GeneratedMSBuildEditorConfig.editorconfig
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\obj\Debug\net8.0\zad 4.AssemblyInfoInputs.cache
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\obj\Debug\net8.0\zad 4.AssemblyInfo.cs
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\obj\Debug\net8.0\zad 4.csproj.CoreCompileInputs.cache
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\obj\Debug\net8.0\zad 4.sourcelink.json
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\obj\Debug\net8.0\zad 4.dll
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\obj\Debug\net8.0\refint\zad 4.dll
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\obj\Debug\net8.0\zad 4.pdb
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\obj\Debug\net8.0\zad 4.genruntimeconfig.cache
+D:\3pb Jsz\3\c#\zestaw 3\zad4\zad 4\obj\Debug\net8.0\ref\zad 4.dll

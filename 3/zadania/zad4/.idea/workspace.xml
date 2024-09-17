@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="41a27a01-748f-4d15-a7b5-4c76f0f12d17" name="Changes" comment="zadania">
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/.vs/ProjectEvaluation/zadania.metadata.v7.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/.vs/ProjectEvaluation/zadania.projects.v7.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/.vs/zadania/DesignTimeBuild/.dtbcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/.vs/zadania/FileContentIndex/51e17a51-ebb2-4301-ab92-a1036b17c415.vsidx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/.vs/zadania/v17/.futdcache.v2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/.vs/zadania/v17/.suo" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/bin/Debug/net8.0/zadania.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/bin/Debug/net8.0/zadania.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/bin/Debug/net8.0/zadania.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/bin/Debug/net8.0/zadania.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/bin/Debug/net8.0/zadania.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/.NETCoreApp,Version=v8.0.AssemblyAttributes.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/apphost.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/ref/zadania.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/refint/zadania.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/zadania.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/zadania.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/zadania.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/zadania.GlobalUsings.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/zadania.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/zadania.csproj.BuildWithSkipAnalyzers" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/zadania.csproj.CoreCompileInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/zadania.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/zadania.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/zadania.genruntimeconfig.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/zadania.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/Debug/net8.0/zadania.sourcelink.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/project.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/zadania.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/zadania.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/obj/zadania.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/zadania.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../c#/zadania/zadania.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad1/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad1/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad1/zad1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad2/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad2/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad2/zad2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad3/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad3/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad3/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad3/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad3/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad3/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../zad3/zad3.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/zad4.iml" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2lZ3P7rub8hoif5lruw1Ri2anZ2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;D:/3pb Jsz/3/zadania/zad4/src/Main.java&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41a27a01-748f-4d15-a7b5-4c76f0f12d17" name="Changes" comment="" />
+      <created>1725373745045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725373745045</updated>
+    </task>
+    <task id="LOCAL-00001" summary="zadania">
+      <option name="closed" value="true" />
+      <created>1725374361887</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725374361887</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="zadania" />
+    <option name="LAST_COMMIT_MESSAGE" value="zadania" />
+  </component>
+</project>
