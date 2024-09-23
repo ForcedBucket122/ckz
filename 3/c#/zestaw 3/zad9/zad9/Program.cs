@@ -4,25 +4,27 @@
     {
         static void Main(string[] args)
         {
+            int i = 1;
             int potega = 3;
-            int k = 999999;
-            while (potega < k)
+            int wynik = potega;
+            int k = 0;
+            Console.Write("\nPodaj liczbe naturalna wieksza od 2: ");
+            k = int.Parse(Console.ReadLine());
+            if (k < 3)
             {
-                Console.WriteLine(potega);
-                do
-                {
-                    Console.Write("\nPodaj liczbe naturalna wieksza od 2: ");
-                    k = int.Parse(Console.ReadLine());
-                    if (k < 3) 
-                    {
-                        Console.WriteLine("Liczba musi byc wieksza od 2!");
-                    }
-                } while (k<3);
-
-                potega = potega * potega;
-                //dokoncz
-                
+                Console.WriteLine("Liczba musi byc wieksza od 2!");
             }
+            else
+            {
+            while(wynik<k)
+                {
+                    
+                    wynik = (int)Math.Pow(wynik,i);
+                    Console.WriteLine(Math.Pow(potega,i));
+                    i++;
+                }
+            }
+            
         }
     }
 }

@@ -1,0 +1,15 @@
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\bin\Debug\net8.0\zad12.exe
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\bin\Debug\net8.0\zad12.deps.json
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\bin\Debug\net8.0\zad12.runtimeconfig.json
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\bin\Debug\net8.0\zad12.dll
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\bin\Debug\net8.0\zad12.pdb
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\obj\Debug\net8.0\zad12.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\obj\Debug\net8.0\zad12.AssemblyInfoInputs.cache
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\obj\Debug\net8.0\zad12.AssemblyInfo.cs
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\obj\Debug\net8.0\zad12.csproj.CoreCompileInputs.cache
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\obj\Debug\net8.0\zad12.sourcelink.json
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\obj\Debug\net8.0\zad12.dll
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\obj\Debug\net8.0\refint\zad12.dll
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\obj\Debug\net8.0\zad12.pdb
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\obj\Debug\net8.0\zad12.genruntimeconfig.cache
+C:\Users\aloae\Desktop\ewa szkola\3\c#\zestaw 1\zad12\zad12\obj\Debug\net8.0\ref\zad12.dll

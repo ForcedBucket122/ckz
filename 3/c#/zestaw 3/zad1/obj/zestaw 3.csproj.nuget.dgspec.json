@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\3pb Jsz\\3\\c#\\zestaw 3\\zestaw 3.csproj": {}
+    "C:\\Users\\aloae\\Desktop\\ewa szkola\\3\\c#\\zestaw 3\\zad1\\zestaw 3.csproj": {}
   },
   "projects": {
-    "D:\\3pb Jsz\\3\\c#\\zestaw 3\\zestaw 3.csproj": {
+    "C:\\Users\\aloae\\Desktop\\ewa szkola\\3\\c#\\zestaw 3\\zad1\\zestaw 3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\3pb Jsz\\3\\c#\\zestaw 3\\zestaw 3.csproj",
+        "projectUniqueName": "C:\\Users\\aloae\\Desktop\\ewa szkola\\3\\c#\\zestaw 3\\zad1\\zestaw 3.csproj",
         "projectName": "zestaw 3",
-        "projectPath": "D:\\3pb Jsz\\3\\c#\\zestaw 3\\zestaw 3.csproj",
-        "packagesPath": "C:\\Users\\CKZ\\.nuget\\packages\\",
-        "outputPath": "D:\\3pb Jsz\\3\\c#\\zestaw 3\\obj\\",
+        "projectPath": "C:\\Users\\aloae\\Desktop\\ewa szkola\\3\\c#\\zestaw 3\\zad1\\zestaw 3.csproj",
+        "packagesPath": "C:\\Users\\aloae\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aloae\\Desktop\\ewa szkola\\3\\c#\\zestaw 3\\zad1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CKZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\aloae\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

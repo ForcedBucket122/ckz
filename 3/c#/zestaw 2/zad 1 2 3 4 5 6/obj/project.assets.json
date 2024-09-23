@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Rafik\\.nuget\\packages\\": {}
+    "C:\\Users\\aloae\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\xampp\\htdocs\\SZKOŁA\\ckz\\3\\c#\\zestaw 2\\zad 1\\zadania.csproj",
+      "projectUniqueName": "C:\\Users\\aloae\\Desktop\\ewa szkola\\3\\c#\\zestaw 2\\zad 1 2 3 4 5 6\\zadania.csproj",
       "projectName": "zadania",
-      "projectPath": "D:\\xampp\\htdocs\\SZKOŁA\\ckz\\3\\c#\\zestaw 2\\zad 1\\zadania.csproj",
-      "packagesPath": "C:\\Users\\Rafik\\.nuget\\packages\\",
-      "outputPath": "D:\\xampp\\htdocs\\SZKOŁA\\ckz\\3\\c#\\zestaw 2\\zad 1\\obj\\",
+      "projectPath": "C:\\Users\\aloae\\Desktop\\ewa szkola\\3\\c#\\zestaw 2\\zad 1 2 3 4 5 6\\zadania.csproj",
+      "packagesPath": "C:\\Users\\aloae\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\aloae\\Desktop\\ewa szkola\\3\\c#\\zestaw 2\\zad 1 2 3 4 5 6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Rafik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\aloae\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
