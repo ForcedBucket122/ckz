@@ -1,0 +1,14 @@
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\bin\Debug\net8.0\zadania c#.exe
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\bin\Debug\net8.0\zadania c#.deps.json
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\bin\Debug\net8.0\zadania c#.runtimeconfig.json
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\bin\Debug\net8.0\zadania c#.dll
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\bin\Debug\net8.0\zadania c#.pdb
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\obj\Debug\net8.0\zadania c#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\obj\Debug\net8.0\zadania c#.AssemblyInfoInputs.cache
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\obj\Debug\net8.0\zadania c#.AssemblyInfo.cs
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\obj\Debug\net8.0\zadania c#.csproj.CoreCompileInputs.cache
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\obj\Debug\net8.0\zadania c#.dll
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\obj\Debug\net8.0\refint\zadania c#.dll
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\obj\Debug\net8.0\zadania c#.pdb
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\obj\Debug\net8.0\zadania c#.genruntimeconfig.cache
+C:\Users\CKZ\Desktop\zaliczenie\zadania c#\obj\Debug\net8.0\ref\zadania c#.dll
