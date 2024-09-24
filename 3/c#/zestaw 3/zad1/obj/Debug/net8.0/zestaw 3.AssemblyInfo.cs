@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("zestaw 3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dc833abc48df7f99f05559c35cc3b0ddd6dc1e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f4d58fbd0698cc74a522a5ebb1df64cd0a04ab34")]
 [assembly: System.Reflection.AssemblyProductAttribute("zestaw 3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("zestaw 3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
