@@ -1,0 +1,15 @@
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\bin\Debug\net8.0\zadanieztygodnia.exe
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\bin\Debug\net8.0\zadanieztygodnia.deps.json
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\bin\Debug\net8.0\zadanieztygodnia.runtimeconfig.json
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\bin\Debug\net8.0\zadanieztygodnia.dll
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\bin\Debug\net8.0\zadanieztygodnia.pdb
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\obj\Debug\net8.0\zadanieztygodnia.GeneratedMSBuildEditorConfig.editorconfig
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\obj\Debug\net8.0\zadanieztygodnia.AssemblyInfoInputs.cache
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\obj\Debug\net8.0\zadanieztygodnia.AssemblyInfo.cs
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\obj\Debug\net8.0\zadanieztygodnia.csproj.CoreCompileInputs.cache
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\obj\Debug\net8.0\zadanieztygodnia.sourcelink.json
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\obj\Debug\net8.0\zadanieztygodnia.dll
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\obj\Debug\net8.0\refint\zadanieztygodnia.dll
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\obj\Debug\net8.0\zadanieztygodnia.pdb
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\obj\Debug\net8.0\zadanieztygodnia.genruntimeconfig.cache
+D:\3pb Jsz\3\WPF\zestaw 1\zadanieztygodnia\obj\Debug\net8.0\ref\zadanieztygodnia.dll
