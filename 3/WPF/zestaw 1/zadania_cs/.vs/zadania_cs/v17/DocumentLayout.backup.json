@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\xampp\\htdocs\\SZKO\u0141A\\ckz\\3\\WPF\\zestaw 1\\zadania_cs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A6D16E7-8775-447A-B65A-31AF0724AF7B}|zadania_cs\\zadania_cs.csproj|d:\\xampp\\htdocs\\szko\u0142a\\ckz\\3\\wpf\\zestaw 1\\zadania_cs\\zadania_cs\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7A6D16E7-8775-447A-B65A-31AF0724AF7B}|zadania_cs\\zadania_cs.csproj|solutionrelative:zadania_cs\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A6D16E7-8775-447A-B65A-31AF0724AF7B}|zadania_cs\\zadania_cs.csproj|d:\\xampp\\htdocs\\szko\u0142a\\ckz\\3\\wpf\\zestaw 1\\zadania_cs\\zadania_cs\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A6D16E7-8775-447A-B65A-31AF0724AF7B}|zadania_cs\\zadania_cs.csproj|solutionrelative:zadania_cs\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\SZKO\u0141A\\ckz\\3\\WPF\\zestaw 1\\zadania_cs\\zadania_cs\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "zadania_cs\\MainWindow.xaml",
+              "ToolTip": "D:\\xampp\\htdocs\\SZKO\u0141A\\ckz\\3\\WPF\\zestaw 1\\zadania_cs\\zadania_cs\\MainWindow.xaml",
+              "RelativeToolTip": "zadania_cs\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-10-21T20:24:58.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\xampp\\htdocs\\SZKO\u0141A\\ckz\\3\\WPF\\zestaw 1\\zadania_cs\\zadania_cs\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "zadania_cs\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\xampp\\htdocs\\SZKO\u0141A\\ckz\\3\\WPF\\zestaw 1\\zadania_cs\\zadania_cs\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "zadania_cs\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-21T20:24:58.485Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
