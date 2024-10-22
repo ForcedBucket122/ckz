@@ -1,0 +1,45 @@
+﻿<Window x:Class="zad2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zad2"
+        mc:Ignorable="d"
+        Title="Test" Height="300" Width="500">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100"/>
+            <ColumnDefinition Width="400"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" VerticalAlignment="Center" FontSize="20">Rozmiar</TextBlock>
+
+        <Slider Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Width="390" HorizontalAlignment="Left" Minimum="1" Maximum="50" x:Name="Rozmiar"/>
+
+        <TextBlock Grid.Row="1" VerticalAlignment="Center" FontSize="20">Kolor</TextBlock>
+
+        <ComboBox Grid.Row="1" Grid.Column="1" Width="100" Height="25" HorizontalAlignment="Left" x:Name="Kolor">
+            <ComboBoxItem>Green</ComboBoxItem>
+            <ComboBoxItem>Red</ComboBoxItem>
+            <ComboBoxItem>Blue</ComboBoxItem>
+        </ComboBox>
+
+        <TextBlock Grid.Row="2" VerticalAlignment="Center" FontSize="20">Tekst</TextBlock>
+
+        <TextBox Grid.Row="2" Grid.Column="1" Width="200" Height="25" HorizontalAlignment="Left" FontSize="20" x:Name="Tekst"/>
+
+        <TextBlock Grid.Row="3" VerticalAlignment="Center" FontSize="20">Długość</TextBlock>
+
+        <TextBlock Grid.Row="3" Grid.Column="1" VerticalAlignment="Center" FontSize="20" Text="{Binding ElementName=Tekst, StringFormat=liczba znakow {0}, Path=Text.Length}"/>
+
+        <TextBlock Grid.Row="4" Grid.ColumnSpan="2" FontSize="{Binding ElementName=Rozmiar, Path=Value}" Foreground="{Binding ElementName=Kolor, Path=Text}" Text="{Binding ElementName=Tekst, Path=Text}"/>
+
+    </Grid>
+</Window>
