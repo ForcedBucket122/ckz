@@ -17,5 +17,6 @@
             </MenuItem>
         </Menu>
         <TextBox HorizontalAlignment="Stretch" Padding="3" x:Name="txtBox"/>
+        
     </DockPanel>
 </Window>

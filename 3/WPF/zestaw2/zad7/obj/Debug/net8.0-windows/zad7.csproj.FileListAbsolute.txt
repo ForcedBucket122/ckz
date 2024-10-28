@@ -19,3 +19,24 @@ D:\3pb Jsz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\refint\zad7.dll
 D:\3pb Jsz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\zad7.pdb
 D:\3pb Jsz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\zad7.genruntimeconfig.cache
 D:\3pb Jsz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\ref\zad7.dll
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\bin\Debug\net8.0-windows\zad7.exe
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\bin\Debug\net8.0-windows\zad7.deps.json
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\bin\Debug\net8.0-windows\zad7.runtimeconfig.json
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\bin\Debug\net8.0-windows\zad7.dll
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\bin\Debug\net8.0-windows\zad7.pdb
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\App.g.cs
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\zad7_MarkupCompile.cache
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\zad7_MarkupCompile.lref
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\MainWindow.baml
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\zad7.g.resources
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\zad7.GeneratedMSBuildEditorConfig.editorconfig
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\zad7.AssemblyInfoInputs.cache
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\zad7.AssemblyInfo.cs
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\zad7.csproj.CoreCompileInputs.cache
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\zad7.sourcelink.json
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\zad7.dll
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\refint\zad7.dll
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\zad7.pdb
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\zad7.genruntimeconfig.cache
+D:\SZKOLA\ckz\3\WPF\zestaw2\zad7\obj\Debug\net8.0-windows\ref\zad7.dll

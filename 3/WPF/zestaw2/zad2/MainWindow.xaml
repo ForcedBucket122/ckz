@@ -21,7 +21,7 @@
 
         <TextBlock Grid.Row="0" VerticalAlignment="Center" FontSize="20">Rozmiar</TextBlock>
 
-        <Slider Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Width="390" HorizontalAlignment="Left" Minimum="1" Maximum="50" x:Name="Rozmiar"/>
+        <Slider Grid.Row="0" Grid.Column="1" VerticalAlignment="Center" Width="390" HorizontalAlignment="Left" Minimum="1" Maximum="50" x:Name="Rozmiar" Value="20"/>
 
         <TextBlock Grid.Row="1" VerticalAlignment="Center" FontSize="20">Kolor</TextBlock>
 
