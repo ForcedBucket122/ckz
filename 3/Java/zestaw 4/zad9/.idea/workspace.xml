@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1126f39d-03f9-4458-8b0b-4b8164bb9f3f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../zad1/src/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad1/src/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad7/src/RectangularPrism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad7/src/shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad8/src/GryZespolowe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad8/src/LekkoAtletyka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../zad8/src/Sport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tkaniny.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2okqZQEr4eS75wCPJRNe27LSSeq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "onboarding.tips.debug.path": "D:/3pb Jsz/3/Java/zestaw 4/zad9/src/Main.java"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1126f39d-03f9-4458-8b0b-4b8164bb9f3f" name="Changes" comment="" />
+      <created>1731423975629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731423975629</updated>
+    </task>
+    <servers />
+  </component>
+</project>
