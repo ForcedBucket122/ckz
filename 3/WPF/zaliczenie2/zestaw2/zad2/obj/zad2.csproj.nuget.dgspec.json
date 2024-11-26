@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\SZKOLA\\ckz\\3\\WPF\\zestaw2\\zad2\\zad2.csproj": {}
+    "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenie2\\zestaw2\\zad2\\zad2.csproj": {}
   },
   "projects": {
-    "D:\\SZKOLA\\ckz\\3\\WPF\\zestaw2\\zad2\\zad2.csproj": {
+    "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenie2\\zestaw2\\zad2\\zad2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\SZKOLA\\ckz\\3\\WPF\\zestaw2\\zad2\\zad2.csproj",
+        "projectUniqueName": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenie2\\zestaw2\\zad2\\zad2.csproj",
         "projectName": "zad2",
-        "projectPath": "D:\\SZKOLA\\ckz\\3\\WPF\\zestaw2\\zad2\\zad2.csproj",
+        "projectPath": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenie2\\zestaw2\\zad2\\zad2.csproj",
         "packagesPath": "C:\\Users\\Rafik\\.nuget\\packages\\",
-        "outputPath": "D:\\SZKOLA\\ckz\\3\\WPF\\zestaw2\\zad2\\obj\\",
+        "outputPath": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenie2\\zestaw2\\zad2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafik\\AppData\\Roaming\\NuGet\\NuGet.Config",

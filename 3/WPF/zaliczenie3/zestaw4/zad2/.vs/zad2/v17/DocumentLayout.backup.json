@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenie3\\zestaw4\\zad2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D211E1B7-65F4-4234-9F2C-76AFFC6B7A1F}|zad2.csproj|d:\\szkola\\ckz\\3\\wpf\\zaliczenie3\\zestaw4\\zad2\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D211E1B7-65F4-4234-9F2C-76AFFC6B7A1F}|zad2.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D211E1B7-65F4-4234-9F2C-76AFFC6B7A1F}|zad2.csproj|d:\\szkola\\ckz\\3\\wpf\\zaliczenie3\\zestaw4\\zad2\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D211E1B7-65F4-4234-9F2C-76AFFC6B7A1F}|zad2.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenie3\\zestaw4\\zad2\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenie3\\zestaw4\\zad2\\MainWindow.xaml*",
+              "RelativeToolTip": "MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-25T19:15:21.259Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenie3\\zestaw4\\zad2\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenie3\\zestaw4\\zad2\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "MainWindow.xaml.cs*",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAAABgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T19:15:19.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

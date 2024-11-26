@@ -1,0 +1,66 @@
+﻿<Window x:Class="zad3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Przelicznik walut" Height="450" Width="600">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="3*"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0.2*"/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="PLN" FontSize="20" 
+                   VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="WalutaZrodlowa"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" 
+                 Margin="10 0" x:Name="In1" Text="0" TextAlignment="Right" TextChanged="In1_TextChanged"/>
+
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="EURO" FontSize="20" 
+                   VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="WalutaDocelowa"/>
+        <TextBox Grid.Row="1" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" 
+                 Margin="10 0" x:Name="In2" Text="0" TextAlignment="Right" IsReadOnly="True"/>
+
+        <GroupBox Header="Waluta źródłowa" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="2" 
+                  Margin="40 20" FontSize="20">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <RadioButton Grid.Row="0" Content="PLN" GroupName="zrodlo" 
+                             IsChecked="True" x:Name="PLN1" Click="OnRadioClick"/>
+                <RadioButton Grid.Row="1" Content="USD" GroupName="zrodlo" 
+                             x:Name="USD1" Click="OnRadioClick"/>
+                <RadioButton Grid.Row="2" Content="EURO" GroupName="zrodlo" 
+                             x:Name="EURO1" Click="OnRadioClick"/>
+            </Grid>
+        </GroupBox>
+
+        <GroupBox Header="Waluta docelowa" Grid.Row="2" Grid.Column="2" 
+                  Margin="20 20" FontSize="20">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <RadioButton Grid.Row="0" Content="PLN" GroupName="docelowe" 
+                             x:Name="PLN2" Click="OnRadioClick"/>
+                <RadioButton Grid.Row="1" Content="USD" GroupName="docelowe" 
+                             x:Name="USD2" Click="OnRadioClick"/>
+                <RadioButton Grid.Row="2" Content="EURO" GroupName="docelowe" 
+                             IsChecked="True" x:Name="EURO2" Click="OnRadioClick"/>
+            </Grid>
+        </GroupBox>
+
+        <ScrollBar Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" 
+                   Minimum="0" Maximum="999" Width="500" Orientation="Horizontal" 
+                   x:Name="Scroll" ValueChanged="Scroll_ValueChanged"/>
+    </Grid>
+</Window>
