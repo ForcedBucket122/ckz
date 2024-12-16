@@ -1,4 +1,5 @@
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
 
@@ -23,7 +24,7 @@ public class Main {
                 wiersze[i][j] = slowa[i * 5 + j].toCharArray();
             }
         }
-        liczbaZnakow(wiersze, 1);
+        liczbaZnakow(wiersze, 0);
     }
 
     public static void liczbaZnakow(char[][][] tab, int i) {
@@ -38,7 +39,15 @@ public class Main {
         }
 
         if (sameLength) {
-            System.out.println("All words in row " + i + " have the same number of characters.");
+            try(FileWriter fileWriter = new FileWriter("src/odp_a.txt")) {
+                StringBuilder wiersz = new StringBuilder();
+                for (int j = 1; j < tab[i].length; j++) {
+                    wiersz.append(tab[i][j]);
+                }
+                fileWriter.append(wiersz.toString());
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
         } else {
             System.out.println("Not all words in row " + i + " have the same number of characters.");
         }
