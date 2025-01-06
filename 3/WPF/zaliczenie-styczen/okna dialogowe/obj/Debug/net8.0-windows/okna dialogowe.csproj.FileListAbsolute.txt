@@ -1,0 +1,21 @@
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\bin\Debug\net8.0-windows\okna dialogowe.exe
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\bin\Debug\net8.0-windows\okna dialogowe.deps.json
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\bin\Debug\net8.0-windows\okna dialogowe.runtimeconfig.json
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\bin\Debug\net8.0-windows\okna dialogowe.dll
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\bin\Debug\net8.0-windows\okna dialogowe.pdb
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\App.g.cs
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\okna dialogowe_MarkupCompile.cache
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\okna dialogowe_MarkupCompile.lref
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\MainWindow.baml
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\okna dialogowe.g.resources
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\okna dialogowe.GeneratedMSBuildEditorConfig.editorconfig
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\okna dialogowe.AssemblyInfoInputs.cache
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\okna dialogowe.AssemblyInfo.cs
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\okna dialogowe.csproj.CoreCompileInputs.cache
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\okna dialogowe.sourcelink.json
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\okna dialogowe.dll
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\refint\okna dialogowe.dll
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\okna dialogowe.pdb
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\okna dialogowe.genruntimeconfig.cache
+D:\SZKOLA\ckz\3\WPF\zaliczenie-styczen\okna dialogowe\obj\Debug\net8.0-windows\ref\okna dialogowe.dll

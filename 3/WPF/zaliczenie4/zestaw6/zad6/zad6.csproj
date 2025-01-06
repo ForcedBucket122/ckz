@@ -8,4 +8,12 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="obraz.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="obraz.jpeg" />
+  </ItemGroup>
+
 </Project>

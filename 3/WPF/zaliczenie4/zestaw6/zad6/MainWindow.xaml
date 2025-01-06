@@ -17,12 +17,12 @@
                 </MenuItem>
                 <MenuItem Header="_A radio button menu item">
                     <MenuItem.Icon>
-                        <RadioButton/>
+                        <RadioButton GroupName="grupa"/>
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="_Another one">
                     <MenuItem.Icon>
-                        <RadioButton/>
+                        <RadioButton GroupName="grupa"/>
                     </MenuItem.Icon>
                 </MenuItem>
                 <MenuItem Header="_A check box menu item">

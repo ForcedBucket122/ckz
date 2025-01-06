@@ -19,7 +19,7 @@ public class Main {
         ArrayList<String> czyPalindrom = new ArrayList<>();
 
         for (String word : slowa) {
-            if(Objects.equals(word, reverse(word))){
+            if(word.equals(reverse(word))){
                 czyPalindrom.add(word);
             }
         }
