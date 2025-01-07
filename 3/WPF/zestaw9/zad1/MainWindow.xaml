@@ -1,0 +1,25 @@
+﻿<Window x:Class="zad1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zad1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ComboBox Width="800" Height="20" Name="miesiace" SelectionChanged="funkcja">
+            <ComboBoxItem Content="Styczen"/>
+            <ComboBoxItem Content="Luty"/>
+            <ComboBoxItem Content="Marzec"/>
+            <ComboBoxItem Content="Kwiecien"/>
+            <ComboBoxItem Content="Maj"/>
+            <ComboBoxItem Content="Czerwiec"/>
+            <ComboBoxItem Content="Lipiec"/>
+            <ComboBoxItem Content="Sierpien"/>
+            <ComboBoxItem Content="Wrzesien"/>
+            <ComboBoxItem Content="Pazdziernik"/>
+            <ComboBoxItem Content="Listopad"/>
+            <ComboBoxItem Content="Grudzien"/>
+        </ComboBox>
+    </Grid>
+</Window>
