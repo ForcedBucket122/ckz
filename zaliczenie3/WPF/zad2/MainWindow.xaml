@@ -1,0 +1,35 @@
+﻿<Window x:Class="zad2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zad2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <Menu DockPanel.Dock="Top">
+            <MenuItem Header="_A Menu">
+                <MenuItem Header="_A text-only menu item" InputGestureText="Alt+1"/>
+                <MenuItem Header="_Both text and icon">
+                    <MenuItem.Icon>
+                        <Image Source="ikona.png"/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="_Radio button">
+                    <MenuItem.Icon>
+                        <RadioButton/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="_Checkbox">
+                    <MenuItem.Icon>
+                        <CheckBox/>
+                    </MenuItem.Icon>
+                </MenuItem>
+                <MenuItem Header="_Submenu">
+                    <MenuItem Header="_An item in submenu"/>
+                </MenuItem>
+            </MenuItem>
+            <MenuItem Header="_Another Meny"/>
+        </Menu>
+    </DockPanel>
+</Window>

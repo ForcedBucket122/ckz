@@ -1,0 +1,4 @@
+C:\Users\CKZ\Desktop\zaliczenie\WPF\zad3\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\CKZ\Desktop\zaliczenie\WPF\zad3\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\CKZ\Desktop\zaliczenie\WPF\zad3\obj\Debug\net8.0-windows\zad3_MarkupCompile.cache
+C:\Users\CKZ\Desktop\zaliczenie\WPF\zad3\obj\Debug\net8.0-windows\zad3_MarkupCompile.lref
