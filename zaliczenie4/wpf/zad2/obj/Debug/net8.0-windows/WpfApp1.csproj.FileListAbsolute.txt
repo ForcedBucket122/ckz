@@ -1,0 +1,38 @@
+F:\wpf\ckp\zad 6\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.exe
+F:\wpf\ckp\zad 6\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.deps.json
+F:\wpf\ckp\zad 6\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.runtimeconfig.json
+F:\wpf\ckp\zad 6\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.dll
+F:\wpf\ckp\zad 6\WpfApp1\bin\Debug\net8.0-windows\WpfApp1.pdb
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\MainWindow.baml
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\MainWindow.g.cs
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\App.g.cs
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.cache
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.g.resources
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.AssemblyInfoInputs.cache
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.AssemblyInfo.cs
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.dll
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\refint\WpfApp1.dll
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.pdb
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\WpfApp1.genruntimeconfig.cache
+F:\wpf\ckp\zad 6\WpfApp1\obj\Debug\net8.0-windows\ref\WpfApp1.dll
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\bin\Debug\net8.0-windows\WpfApp1.exe
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\bin\Debug\net8.0-windows\WpfApp1.deps.json
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\bin\Debug\net8.0-windows\WpfApp1.runtimeconfig.json
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\bin\Debug\net8.0-windows\WpfApp1.dll
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\bin\Debug\net8.0-windows\WpfApp1.pdb
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\WpfApp1_MarkupCompile.cache
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\WpfApp1.g.resources
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\WpfApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\WpfApp1.AssemblyInfoInputs.cache
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\WpfApp1.AssemblyInfo.cs
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\WpfApp1.csproj.CoreCompileInputs.cache
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\WpfApp1.dll
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\refint\WpfApp1.dll
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\WpfApp1.pdb
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\WpfApp1.genruntimeconfig.cache
+C:\Users\CKZ\Desktop\zaliczenie\wpf\zad2\obj\Debug\net8.0-windows\ref\WpfApp1.dll

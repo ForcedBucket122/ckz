@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="200" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Content="Typ konfiguracji" VerticalAlignment="Top" />
+
+        <ComboBox Grid.Row="1" x:Name="opcje" Width="200" VerticalAlignment="Top" SelectionChanged="wybor" HorizontalAlignment="Left">
+            <ComboBoxItem Content="Konfiguracja automatyczna"/>
+            <ComboBoxItem Content="Wybór urządzenia z listy"/>
+            <ComboBoxItem Content="Konfiguracja ręczna"/>
+        </ComboBox>
+    </Grid>
+</Window>
