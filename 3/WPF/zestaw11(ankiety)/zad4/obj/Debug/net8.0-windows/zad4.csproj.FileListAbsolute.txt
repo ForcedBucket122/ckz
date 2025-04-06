@@ -19,3 +19,24 @@ D:\3pb Jsz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\refint\zad4.dll
 D:\3pb Jsz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\zad4.pdb
 D:\3pb Jsz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\zad4.genruntimeconfig.cache
 D:\3pb Jsz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\ref\zad4.dll
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\bin\Debug\net8.0-windows\zad4.exe
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\bin\Debug\net8.0-windows\zad4.deps.json
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\bin\Debug\net8.0-windows\zad4.runtimeconfig.json
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\bin\Debug\net8.0-windows\zad4.dll
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\bin\Debug\net8.0-windows\zad4.pdb
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\App.g.cs
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\zad4_MarkupCompile.cache
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\zad4_MarkupCompile.lref
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\MainWindow.baml
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\zad4.g.resources
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\zad4.GeneratedMSBuildEditorConfig.editorconfig
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\zad4.AssemblyInfoInputs.cache
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\zad4.AssemblyInfo.cs
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\zad4.csproj.CoreCompileInputs.cache
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\zad4.sourcelink.json
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\zad4.dll
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\refint\zad4.dll
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\zad4.pdb
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\zad4.genruntimeconfig.cache
+D:\SZKOLA\ckz\3\WPF\zestaw11(ankiety)\zad4\obj\Debug\net8.0-windows\ref\zad4.dll

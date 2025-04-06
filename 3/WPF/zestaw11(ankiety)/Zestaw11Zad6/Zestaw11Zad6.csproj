@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="john1.jpg" />
+    <None Remove="john2.jpg" />
+    <None Remove="john3.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Nowy folder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="john1.jpg" />
+    <Resource Include="john2.jpg" />
+    <Resource Include="john3.jpg" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="waluty">
+        <item>EUR</item>
+        <item>USD</item>
+        <item>PLN</item>
+        <item>GBP</item>
+    </array>
+    <array name="waluty2">
+        <item>PLN</item>
+        <item>EUR</item>
+        <item>USD</item>
+        <item>GBP</item>
+    </array>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">zad3_konwerter_walut</string>
+    <style name="Base.Theme.Zad3_konwerter_walut" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Zad3_konwerter_walut" parent="Base.Theme.Zad3_konwerter_walut"/>
+</resources>

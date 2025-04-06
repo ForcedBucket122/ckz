@@ -1,0 +1,19 @@
+﻿<Window x:Class="zad3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zad3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="200" Width="200">
+    <StackPanel x:Name="okno">
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Red" x:Name="red" FontSize="20" Margin="20" Click="Red"/>
+            <Button Content="Yellow" x:Name="yellow" FontSize="20" Margin="20" Click="Yellow"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <Button Content="Blue" x:Name="blue" FontSize="20" Margin="20" Click="Blue"/>
+            <Button Content="Green" x:Name="green" FontSize="20" Margin="20" Click="Green"/>
+        </StackPanel>
+    </StackPanel>
+</Window>
