@@ -1,0 +1,41 @@
+﻿<Window x:Class="zad1.ankieta"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:zad1"
+        mc:Ignorable="d"
+        Title="ankieta" Height="450" Width="800">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Imie"/>
+            <TextBox x:Name="imie" Width="100"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal">
+            <TextBlock Text="Nazwisko"/>
+            <TextBox x:Name="nazwisko" Width="100"/>
+        </StackPanel>
+        <TextBlock Text="Płeć"/>
+        <StackPanel Orientation="Horizontal">
+            <RadioButton Content="Kobieta" GroupName="grupa" x:Name="kobieta"/>
+            <RadioButton Content="mezczyzna" GroupName="grupa" x:Name="mezczyzna"/>
+        </StackPanel>
+        <TextBlock Text="Płeć"/>
+        <StackPanel Orientation="Horizontal">
+            <CheckBox Content="Programowanie" x:Name="programowanie"/>
+            <CheckBox Content="Muzyka" x:Name="Muzyka"/>
+            <CheckBox Content="Film" x:Name="Film"/>
+        </StackPanel>
+        <TextBlock Text="Szkola"/>
+        <ComboBox x:Name="szkola" Width="100" HorizontalAlignment="Left">
+            <ComboBoxItem Content="podstawowa"/>
+            <ComboBoxItem Content="srednia"/>
+            <ComboBoxItem Content="uniwersytet"/>
+        </ComboBox>
+        <TextBlock Text="krotko o sobie"/>
+        <TextBox x:Name="osobie" Width="200" HorizontalAlignment="Left" Height="100" TextWrapping="Wrap"/>
+
+        <Button Content="zapisz w nowym pliku" Click="ZapiszWNowym"/>
+        <Button Content="dopisz do pliku"/>
+    </StackPanel>
+</Window>

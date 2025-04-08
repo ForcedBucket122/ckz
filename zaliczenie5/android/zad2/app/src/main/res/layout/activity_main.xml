@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Oceń zdjęcia ponizej"
+        android:textSize="35sp"
+        android:textAlignment="center"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/zdj1"
+        />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/zdj1"
+        android:min="0"
+        android:max="5"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:src="@drawable/zdj2"
+        />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/zdj2"
+        android:min="0"
+        android:max="5"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="wyslij"
+        android:id="@+id/wyslij"
+        android:textSize="20sp"
+        />
+
+</LinearLayout>
