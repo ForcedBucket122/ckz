@@ -1,0 +1,26 @@
+﻿<Window x:Class="zad1.MainWindow"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+       xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+       xmlns:local="clr-namespace:zad1"
+       mc:Ignorable="d"
+       Title="MainWindow" Height="450" Width="800">
+   <StackPanel>
+        <ListBox x:Name="listBox" Height="200" Width="300">
+            <ListBoxItem Tag="www.google.com">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/ikona.png" Width="20"/>
+                    <TextBlock Text="www.google.com" Width="200"/>
+                </StackPanel>
+            </ListBoxItem> 
+            <ListBoxItem Tag="www.microsoft.com">
+                <StackPanel Orientation="Horizontal">
+                    <Image Source="/ikona.png" Width="20"/>
+                    <TextBlock Text="www.microsoft.com" Width="200"/>
+                </StackPanel>
+            </ListBoxItem>
+        </ListBox>
+        <Button x:Name="wyslij" Content="wyslij" Click="Click"/>
+    </StackPanel>
+</Window>

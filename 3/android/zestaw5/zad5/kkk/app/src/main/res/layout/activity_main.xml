@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- URL -->
+    <EditText
+        android:id="@+id/urlInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wpisz URL (np. https://google.com)" />
+
+    <Button
+        android:id="@+id/openUrlButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Otwórz stronę WWW" />
+
+    <!-- Nazwa miejsca -->
+    <EditText
+        android:id="@+id/placeNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Wpisz nazwę miejsca (np. Warszawa)" />
+
+    <Button
+        android:id="@+id/openPlaceButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pokaż lokalizację według nazwy" />
+
+    <!-- Współrzędne -->
+    <EditText
+        android:id="@+id/latitudeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Szerokość geograficzna (np. 52.2297)" />
+
+    <EditText
+        android:id="@+id/longitudeInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Długość geograficzna (np. 21.0122)" />
+
+    <Button
+        android:id="@+id/openCoordinatesButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pokaż lokalizację wg współrzędnych" />
+</LinearLayout>
