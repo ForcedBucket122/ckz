@@ -1,21 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\",
+  "WorkspaceRootPath": "D:\\3pbJSZ\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEFFB6F0-A44D-4409-8439-18A18D7CF708}|zad1.csproj|d:\\szkola\\ckz\\3\\wpf\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CEFFB6F0-A44D-4409-8439-18A18D7CF708}|zad1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CEFFB6F0-A44D-4409-8439-18A18D7CF708}|zad1.csproj|d:\\szkola\\ckz\\3\\wpf\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\dialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CEFFB6F0-A44D-4409-8439-18A18D7CF708}|zad1.csproj|d:\\3pbjsz\\3\\wpf\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\dialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CEFFB6F0-A44D-4409-8439-18A18D7CF708}|zad1.csproj|solutionrelative:dialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEFFB6F0-A44D-4409-8439-18A18D7CF708}|zad1.csproj|d:\\szkola\\ckz\\3\\wpf\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\dialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{CEFFB6F0-A44D-4409-8439-18A18D7CF708}|zad1.csproj|d:\\3pbjsz\\3\\wpf\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CEFFB6F0-A44D-4409-8439-18A18D7CF708}|zad1.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CEFFB6F0-A44D-4409-8439-18A18D7CF708}|zad1.csproj|d:\\3pbjsz\\3\\wpf\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\dialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CEFFB6F0-A44D-4409-8439-18A18D7CF708}|zad1.csproj|solutionrelative:dialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CEFFB6F0-A44D-4409-8439-18A18D7CF708}|zad1.csproj|d:\\szkola\\ckz\\3\\wpf\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{CEFFB6F0-A44D-4409-8439-18A18D7CF708}|zad1.csproj|d:\\3pbjsz\\3\\wpf\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CEFFB6F0-A44D-4409-8439-18A18D7CF708}|zad1.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "dialog.xaml.cs",
-              "DocumentMoniker": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\dialog.xaml.cs",
+              "DocumentMoniker": "D:\\3pbJSZ\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\dialog.xaml.cs",
               "RelativeDocumentMoniker": "dialog.xaml.cs",
-              "ToolTip": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\dialog.xaml.cs",
+              "ToolTip": "D:\\3pbJSZ\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\dialog.xaml.cs",
               "RelativeToolTip": "dialog.xaml.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACYAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwCwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T17:52:10.002Z",
               "EditorCaption": ""
@@ -45,38 +45,35 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "dialog.xaml",
-              "DocumentMoniker": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\dialog.xaml",
+              "DocumentMoniker": "D:\\3pbJSZ\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\dialog.xaml",
               "RelativeDocumentMoniker": "dialog.xaml",
-              "ToolTip": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\dialog.xaml",
+              "ToolTip": "D:\\3pbJSZ\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\dialog.xaml",
               "RelativeToolTip": "dialog.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-12T17:51:20.584Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T17:51:20.584Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\3pbJSZ\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\MainWindow.xaml",
+              "ToolTip": "D:\\3pbJSZ\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-05-12T17:51:06.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T17:51:06.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\3pbJSZ\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\SZKOLA\\ckz\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\3pbJSZ\\3\\WPF\\zaliczenia\\zaliczenie6\\zestaw13\\zad1\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAowBcAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T17:51:06.314Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T17:51:06.314Z"
             }
           ]
         }
